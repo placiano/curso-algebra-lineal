@@ -1,6 +1,6 @@
 ---
 title: "Tema 0 - Preliminares"
-author: "Juan Gabriel Gomila & María Santos"
+author: "Ángel F. Palomar Morales"
 date: 
 output: 
   ioslides_presentation:
@@ -11,13 +11,12 @@ output:
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE, comment = NA, engine.path = list(
-  octave = '/Applications/Octave-4.4.1.app/Contents/Resources/usr/bin/octave'
-))
+  octave = "C:\\Users\\placiano\\AppData\\Local\\Programs\\GNU Octave\\Octave-6.4.0\\mingw64\\bin\\octave-cli.exe"))
 library(polynom)
 library(pracma)
 library(knitr)
 library(reticulate)
-use_python("/anaconda3/bin/python3")
+use_python("C:\\Users\\placiano\\anaconda3\\python.exe")
 ```
 
 # Cuerpos
